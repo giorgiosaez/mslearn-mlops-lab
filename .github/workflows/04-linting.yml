@@ -21,3 +21,5 @@ jobs:
     - name: Run linting tests
       run: | 
         flake8 src/model/
+    - name: Github Action for pytest
+      run: python3 test/test_train.py
