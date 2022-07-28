@@ -25,4 +25,4 @@ jobs:
       run: |
         python -m pip install pytest
     - name: Github Action for pytest
-      run: python3 test/test_train.py
+      run: python3 tests/test_train.py
